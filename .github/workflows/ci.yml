@@ -3,11 +3,11 @@ name: Java CI
 on:
   push:
     branches:
-      - main
+      - default
 
   pull_request:
     branches:
-      - main
+      - default
 
 jobs:
   build:
